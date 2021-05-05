@@ -2,11 +2,11 @@
 
 ##### Code Editor
 
-        https://stackblitz.com/edit/github-st5fkn?file=src/app/app.component.ts
+    https://stackblitz.com/edit/github-st5fkn?file=src/app/app.component.ts
 
 ##### Live Execution
 
-        https://github-st5fkn.stackblitz.io
+    https://github-st5fkn.stackblitz.io
 
 # Products
 
