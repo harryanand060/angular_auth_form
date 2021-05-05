@@ -52,7 +52,7 @@ Step:
     update app routing module 
     here lazy load the auth routing module
 
-![alt text](docs/app-route.png)
+![alt text](docs/app_route.png)
 
 
 
