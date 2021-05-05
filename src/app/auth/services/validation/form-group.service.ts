@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { FormBuilder, Validators, FormGroup } from '@angular/forms';
-import { environment as env } from 'src/environments/environment';
+import { environment as env } from '../../../../environments/environment';
 import { MessageService } from './message.service';
 import { CustomValidationService } from './custom-validation.service';
 

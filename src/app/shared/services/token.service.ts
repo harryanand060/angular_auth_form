@@ -26,10 +26,15 @@ export class TokenService {
    * isAuthenticated
    */
   public isAuthenticated(): boolean {
-    const token = this.getToken()
-    // Check whether the token is expired and return
-    // true or false
-    // console.log(this.jwtHelper.getTokenExpirationDate(token))
-    return !!this.jwtHelper.isTokenExpired(token);
+    try {
+      const token = this.getToken()
+      // Check whether the token is expired and return
+      // true or false
+      // console.log(this.jwtHelper.getTokenExpirationDate(token))
+      return !!this.jwtHelper.isTokenExpired(token);
+    } catch (error) {
+      console.error(`Error ${error}`)
+      return true
+    }
   }
 }
