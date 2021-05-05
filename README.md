@@ -45,7 +45,9 @@ ng generate component auth/components/forget-password
 
 Update routing in auth-routing.module.ts
 
+
 ![alt text](docs/routing.png)
+
 
 Step:
 
