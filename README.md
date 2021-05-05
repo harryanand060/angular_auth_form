@@ -25,3 +25,95 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+Step 1:
+
+npm install -g @angular/cli
+
+
+Step 2:
+
+Create Folder and run
+
+ng new app_name (app_name can be anything)
+
+Step 3:
+    Create new auth module
+
+    ng g module auth --routing 
+
+
+Create folder inside app 
+1. auth/components
+2. create 3 component
+
+ng generate component auth/components/register
+
+ng generate component auth/components/login
+
+ng generate component auth/components/forget-password
+
+![alt text](docs/pic1.png)
+
+Update routing in auth-routing.module.ts
+
+![alt text](docs/routing.png)
+
+Step:
+
+    update app routing module 
+    here lazy load the auth routing module
+
+![alt text](docs/app-routing.png)
+
+
+
+Step:
+
+    Install 
+    npm i @angular/flex-layout @angular/cdk
+
+    ng add @angular/material
+
+
+Step:
+
+    Create shared module 
+
+    ng g m shared
+
+    include 
+
+    FlexLayoutModule,
+    MaterialModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+
+![alt text](docs/sahred_module.png)
+
+    Create material module
+
+    ng g m shared/material --flat
+
+    import all the required angular material module
+
+![alt text](docs/material_module.png)
+
+    Generate Service without spec.ts file 
+         ng g s auth/services/utils/helper --skip-tests=true
+
+
+INSTALL:
+    npm install --save @auth0/angular-jwt
+
+#### Login Component
+
+#### Design HTML
+
+
+
+
+
+
+
+
