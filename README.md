@@ -52,7 +52,7 @@ Step:
     update app routing module 
     here lazy load the auth routing module
 
-![alt text](docs/app-routing.png)
+![alt text](docs/app-route.png)
 
 
 
@@ -77,7 +77,7 @@ Step:
     ReactiveFormsModule,
     HttpClientModule,
 
-![alt text](docs/sahred-module.png)
+![alt text](docs/sahred.png)
 
     Create material module
 
@@ -85,7 +85,7 @@ Step:
 
     import all the required angular material module
 
-![alt text](docs/material-module.png)
+![alt text](docs/material.png)
 
     Generate Service without spec.ts file 
          ng g s auth/services/utils/helper --skip-tests=true
