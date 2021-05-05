@@ -77,7 +77,7 @@ Step:
     ReactiveFormsModule,
     HttpClientModule,
 
-![alt text](docs/sahred_module.png)
+![alt text](docs/sahred-module.png)
 
     Create material module
 
@@ -85,7 +85,7 @@ Step:
 
     import all the required angular material module
 
-![alt text](docs/material_module.png)
+![alt text](docs/material-module.png)
 
     Generate Service without spec.ts file 
          ng g s auth/services/utils/helper --skip-tests=true
